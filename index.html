@@ -9,23 +9,23 @@
   <title>Arcobaleno Animato</title>
   <style>
     @keyframes rainbowAnimation {
-      0% { color: #FF0000; }
-      16.67% { color: #FFA500; }
-      33.33% { color: #FFFF00; }
-      50% { color: #008000; }
-      66.67% { color: #0000FF; }
-      83.33% { color: #4B0082; }
-      100% { color: #9400D3; }
+      0%, 100% { filter: hue-rotate(0deg); }
+      16.67% { filter: hue-rotate(60deg); }
+      33.33% { filter: hue-rotate(120deg); }
+      50% { filter: hue-rotate(180deg); }
+      66.67% { filter: hue-rotate(240deg); }
+      83.33% { filter: hue-rotate(300deg); }
     }
 
     .rainbow-text {
-      font-size: 2em;
+      font-family: 'Arial', sans-serif;
+      font-size: 3em;
       font-weight: bold;
       text-align: center;
-      background: linear-gradient(to right, #FF0000, #FFA500, #FFFF00, #008000, #0000FF, #4B0082, #9400D3);
-      -webkit-background-clip: text;
-      color: transparent;
-      animation: rainbowAnimation 7s infinite;
+      color: #fff;
+      letter-spacing: 5px;
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+      animation: rainbowAnimation 6s linear infinite;
     }
 
     body {
@@ -34,10 +34,11 @@
       justify-content: center;
       height: 100vh;
       margin: 0;
+      background: linear-gradient(to right, #2b5876, #4e4376);
     }
   </style>
 </head>
 <body>
-  <div class="rainbow-text">La figa piace a molti ma il cazzo piace a tutti.</div>
+  <div class="rainbow-text">Arcobaleno Animato</div>
 </body>
 </html>
