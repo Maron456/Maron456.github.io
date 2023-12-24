@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Arcobaleno Animato</title>
+  <title>Arcobaleno Animato con Scorrimento</title>
   <style>
     @keyframes rainbowAnimation {
       0%, 100% { filter: hue-rotate(0deg); }
@@ -34,9 +34,48 @@
       margin: 0;
       background: linear-gradient(to right, #2b5876, #4e4376);
     }
+
+    #scrollButton {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #007BFF;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
+
   <div class="rainbow-text">La figa piace a molti ma il cazzo piace a tutti.</div>
+
+  <button id="scrollButton" onclick="scrollToBottom()">Scrolla sotto</button>
+
+  <script>
+    function scrollToBottom() {
+      window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: 'smooth'
+      });
+    }
+
+    window.onscroll = function () {
+      scrollFunction();
+    };
+
+    function scrollFunction() {
+      var scrollButton = document.getElementById("scrollButton");
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        scrollButton.style.display = "block";
+      } else {
+        scrollButton.style.display = "none";
+      }
+    }
+  </script>
+
 </body>
 </html>
