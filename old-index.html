@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bar da Peo</title>
+  <style>
+    @keyframes rainbowAnimation {
+      0%, 100% { filter: hue-rotate(0deg); }
+      14.29% { filter: hue-rotate(60deg); }
+      28.57% { filter: hue-rotate(120deg); }
+      42.86% { filter: hue-rotate(180deg); }
+      57.14% { filter: hue-rotate(240deg); }
+      71.43% { filter: hue-rotate(300deg); }
+      85.71% { filter: hue-rotate(360deg); }
+    }
+
+    .rainbow-text {
+      font-family: 'Arial', sans-serif;
+      font-size: 3em;
+      font-weight: bold;
+      text-align: center;
+      color: transparent;
+      background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red, violet);
+      -webkit-background-clip: text;
+      animation: rainbowAnimation 7s linear infinite;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(to right, #2b5876, #4e4376);
+    }
+  </style>
+</head>
+<body>
+  <a href="sottostante.html" style="text-decoration: none; color: inherit;">
+    <div class="rainbow-text">Bar da Peo</div>
+  </a>
+</body>
+</html>
