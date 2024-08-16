@@ -1,460 +1,808 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
+    <meta name="robots" content="noindex,nofollow" />
     <meta charset="utf-8">
-    <title>Bar da Peo</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free Website Template" name="keywords">
-    <meta content="Free Website Template" name="description">
-
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
-
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
-
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-
-    <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.min.css" rel="stylesheet">
-</head>
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Football</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/global.css" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	<link href="https://fonts.googleapis.com/css?family=Viga&display=swap" rel="stylesheet">
+	<script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  
 <body>
-    <!-- Navbar Start -->
-    <div class="container-fluid p-0 nav-bar">
-        <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
-            <a href="index.html" class="navbar-brand px-lg-4 m-0">
-                <h1 class="m-0 display-4 text-white">Bar da Peo</h1>
-            </a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                <div class="navbar-nav ml-auto p-4">
-                    <a href="#" class="nav-item nav-link active">Home</a>
-                    <a href="#" class="nav-item nav-link">Chi siamo</a>
-                    <a href="#" class="nav-item nav-link">Menù</a>
-                    
-                    <a href="#" class="nav-item nav-link">Contatti</a>
-                </div>
-            </div>
-        </nav>
-    </div>
-    <!-- Navbar End -->
-
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5">
-        <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <h2 class="text-primary font-weight-medium m-0">Abbiamo servito</h2>
-                        <h1 class="display-1 text-white m-0">SBORA</h1>
-                        <h2 class="text-white m-0">* Dal 2020 *</h2>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <h2 class="text-primary font-weight-medium m-0">Abbiamo servito</h2>
-                        <h1 class="display-1 text-white m-0">SASSI</h1>
-                        <h2 class="text-white m-0">* Dal 2020 *</h2>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#blog-carousel" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#blog-carousel" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
-        </div>
-    </div>
-    <!-- Carousel End -->
-
-
-    <!-- About Start -->
-    <div class="container-fluid py-5">
+<section id="header">
+	<nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-            <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Ma chi siamo?</h4>
-                <h1 class="display-4">Vi serviamo dal 2020</h1>
+		   <div class="col-sm-12">
+		    <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><i class="fa fa-trophy"></i> FOO<span>T</span>BALL</a>
             </div>
-            <div class="row">
-                <div class="col-lg-4 py-0 py-lg-5">
-                    <h1 class="mb-3">La nostra storia</h1>
-                    <h5 class="mb-3"> succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia</h5>
-                    <p> succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia</p>
-                </div>
-                <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="img/about.png" style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-4 py-0 py-lg-5">
-                    <h1 class="mb-3">La nostra visione</h1>
-                    <p> succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia</p>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Evasione fiscale</h5>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Riciclaggio denaro</h5>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Spaccio in sicurezza</h5>
-                </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="tag_menu  active_tab" href="index.html">HOME</a>
+                    </li>
+                     
+					<li>
+                        <a class="tag_menu" href="about.html">ABOUT US</a>
+                    </li>
+					 
+				    <li>
+                        <a class="tag_menu" href="blog.html">BLOG</a>
+                    </li>
+					
+					<li>
+                        <a class="tag_menu" href="blog_detail.html">DETAIL</a>
+                    </li>
+					
+					
+					<li>
+                        <a class="tag_menu" href="team.html">TEAM</a>
+                    </li>
+					
+					<li>
+                        <a class="tag_menu" href="contact.html">CONTACT</a>
+                    </li>
+					<li class="dropdown"><a class="tag_menu" href="#" data-toggle="dropdown"><span class="fa fa-search"></span></a>
+							<ul class="dropdown-menu drop_2" style="min-width: 300px;">
+								<li>
+									<div class="row_1">
+										<div class="col-sm-12">
+											<form class="navbar-form navbar-left" role="search">
+											<div class="input-group">
+												<input type="text" class="form-control" placeholder="Search">
+												<span class="input-group-btn">
+													<button class="btn btn-primary" type="button">
+														Search</button>
+												</span>
+											</div>
+											</form>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</li>
+					<li class="dropdown">
+					  <a class="tag_menu" href="#" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-shopping-cart"></i></a>
+					  <ul class="dropdown-menu drop_1" role="menu">
+						<li>No products in the cart.</li>
+					  </ul>
+                    </li>
+					
+					<li class="dropdown">
+					  <a class="tag_menu" href="#" data-toggle="dropdown" role="button" aria-expanded="false">MORE<span class="caret"></span></a>
+					  <ul class="dropdown-menu drop_1" role="menu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="team.html">Team</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					  </ul>
+                    </li>
+					
+					
+					
+                </ul>
+				<section id="side_box">
+				
+				  <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-list"></i></a>
+					<div id="sidebar-wrapper" class="">
+					  <ul class="sidebar-nav">
+						<a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="glyphicon glyphicon-remove"></i></a>
+						<li class="sidebar-brand">
+						  <a href="index.html">FOOTBALL</a>						</li>
+					  </ul>
+					  <div class="wrap_inner clearfix text-center">
+					   <img  src="img/5.jpg" alt="abc" class="iw">
+					   <p class="para_1"> Lorem ipsum dolor sit amet,  adipiscing elit integer nec odio.</p>
+					   <div class="top_right clearfix">
+								<p>
+								 <a href="#"><i class="fa fa-pinterest"></i></a>
+								 <a href="#"><i class="fa fa-linkedin"></i></a>
+								 <a href="#"><i class="fa fa-dribbble"></i></a>
+								 <a href="#"><i class="fa fa-facebook"></i></a>
+								 <a href="#"><i class="fa fa-twitter"></i></a>
+								</p>
+	                   </div>
+					   
+					  </div>
+					  <div class="wrap_inner_2 clearfix">
+					    <h3>Contact Us</h3>
+						<input class="form-control" placeholder="Name" type="text">
+						<input class="form-control" placeholder="Email" type="text">
+						<input class="form-control" placeholder="Phone" type="text">
+						<textarea class="form-control form_1" placeholder="Type Text Here"></textarea>
+						<h5 class="text-center"><a class="button" href="#">Subscribe <i class="fa fa-chevron-right"></i></a></h5>
+					  </div>
+					  
+					</div>
+		
+	          </section>
             </div>
+		   </div>
         </div>
+ 
+    </nav>
+</section>
+
+<section id="center" class="clearfix center_home">
+ <div class="center_home_m clearfix">
+   <div class="carousel slide article-slide" id="article-photo-carousel">
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner cont-slider">
+
+    <div class="item active">
+      <img alt="abc" class="iw" src="img/1.jpg">
     </div>
-    <!-- About End -->
-
-
-    <!-- Service Start -->
-    <div class="container-fluid pt-5">
-        <div class="container">
-            <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">I nostri servizi (gogogogogo)</h4>
-                <h1 class="display-4">Freschi e organici FAGIOLI</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 mb-5">
-                    <div class="row align-items-center">
-                        <div class="col-sm-5">
-                            <img class="img-fluid mb-3 mb-sm-0" src="img/service-1.jpg" alt="">
-                        </div>
-                        <div class="col-sm-7">
-                            <h4><i class="fa fa-truck service-icon"></i>Caffè bollente adosso ai clienti</h4>
-                            <p class="m-0"> succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 mb-5">
-                    <div class="row align-items-center">
-                        <div class="col-sm-5">
-                            <img class="img-fluid mb-3 mb-sm-0" src="img/service-2.jpg" alt="">
-                        </div>
-                        <div class="col-sm-7">
-                            <h4><i class="fa fa-coffee service-icon"></i>Chicchi secchi di merda</h4>
-                            <p class="m-0"> succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 mb-5">
-                    <div class="row align-items-center">
-                        <div class="col-sm-5">
-                            <img class="img-fluid mb-3 mb-sm-0" src="img/service-3.jpg" alt="">
-                        </div>
-                        <div class="col-sm-7">
-                            <h4><i class="fa fa-award service-icon"></i>Sborra come zucchero</h4>
-                            <p class="m-0"> succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 mb-5">
-                    <div class="row align-items-center">
-                        <div class="col-sm-5">
-                            <img class="img-fluid mb-3 mb-sm-0" src="img/service-4.jpg" alt="">
-                        </div>
-                        <div class="col-sm-7">
-                            <h4><i class="fa fa-table service-icon"></i>Spazio sicuro per lo spaccio</h4>
-                            <p class="m-0"> succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="item">
+      <img alt="abc" class="iw" src="img/2.jpg">
     </div>
-    <!-- Service End -->
-
-
-    <!-- Offer Start -->
-    <div class="offer container-fluid my-5 py-5 text-center position-relative overlay-top overlay-bottom">
-        <div class="container py-5">
-            <h1 class="display-3 text-primary mt-3">1% OFF</h1>
-            <h1 class="text-white mb-3">Offerta speciale recchione1</h1>
-            <h4 class="text-white font-weight-normal mb-4 pb-3">Solo per il 25 dicembre 2020</h4>
-            <form class="form-inline justify-content-center mb-4">
-                <div class="input-group">
-                    <input type="text" class="form-control p-4" placeholder="email" style="height: 60px;">
-                    <div class="input-group-append">
-                        <button class="btn btn-primary font-weight-bold px-4" type="submit">Sell my email</button>
-                    </div>
-                </div>
-            </form>
-        </div>
+    <div class="item">
+      <img alt="abc" class="iw" src="img/3.jpg">
     </div>
-    <!-- Offer End -->
-
-
-    <!-- Menu Start -->
-    <div class="container-fluid pt-5">
-        <div class="container">
-            <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Menu & Pricing</h4>
-                <h1 class="display-4">Prezzi competitivi</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <h1 class="mb-5">Caffè smarso</h1>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-1.jpg" alt="">
-                            <h5 class="menu-price">$5</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Black Coffee</h4>
-                            <p class="m-0"> succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia</p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-2.jpg" alt="">
-                            <h5 class="menu-price">$7</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Chocolete Coffee</h4>
-                            <p class="m-0"> succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia</p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-3.jpg" alt="">
-                            <h5 class="menu-price">$9</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Coffee With Milk</h4>
-                            <p class="m-0"> succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <h1 class="mb-5">Caffè smarso+</h1>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-1.jpg" alt="">
-                            <h5 class="menu-price">$5</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Black Coffee</h4>
-                            <p class="m-0"> succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia</p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-2.jpg" alt="">
-                            <h5 class="menu-price">$7</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Chocolete Coffee</h4>
-                            <p class="m-0"> succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia</p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-3.jpg" alt="">
-                            <h5 class="menu-price">$9</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Coffee With Milk</h4>
-                            <p class="m-0"> succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+	<div class="item">
+      <img alt="abc" class="iw" src="img/4.jpg">
     </div>
-    <!-- Menu End -->
-
-
-    <!-- Reservation Start -->
-    <div class="container-fluid my-5">
-        <div class="container">
-            <div class="reservation position-relative overlay-top overlay-bottom">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 my-5 my-lg-0">
-                        <div class="p-5">
-                            <div class="mb-4">
-                                <h1 class="display-3 text-primary">30% OFF</h1>
-                                <h1 class="text-white">Sei sei una donna col cazzo</h1>
-                            </div>
-                            <p class="text-white"> succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia</p>
-                            <ul class="list-inline text-white m-0">
-                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>succhia succhia succhia succhia</li>
-                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>ingoia ingoia ingoia ingoia ingoia</li>
-                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>succhia succhia succhia succhia</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="text-center p-5" style="background: rgba(51, 33, 29, .8);">
-                            <h1 class="text-white mb-4 mt-5">Bookaa il tuo tavolo</h1>
-                            <form class="mb-5">
-                                <div class="form-group">
-                                    <input type="text" class="form-control bg-transparent border-primary p-4" placeholder="Nome tua madre"
-                                        required="required" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control bg-transparent border-primary p-4" placeholder="Cognome tua madre"
-                                        required="required" />
-                                </div>
-                                <div class="form-group">
-                                    <div class="date" id="date" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Data" data-target="#date" data-toggle="datetimepicker"/>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="time" id="time" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Orario" data-target="#time" data-toggle="datetimepicker"/>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <select class="custom-select bg-transparent border-primary px-4" style="height: 49px;">
-                                        <option selected>Person</option>
-                                        <option value="1">Person 1</option>
-                                        <option value="2">Person 2</option>
-                                        <option value="3">Person 3</option>
-                                        <option value="3">Person 4</option>
-                                    </select>
-                                </div>
-                                
-                                <div>
-                                    <button class="btn btn-primary btn-block font-weight-bold py-3" type="submit">Boooka adessao</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+	<div class="item">
+      <img alt="abc" class="iw" src="img/6.jpg">
     </div>
-    <!-- Reservation End -->
-
-
-    <!-- Testimonial Start -->
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Testimonianze</h4>
-                <h1 class="display-4">I nostri "clienti" dicono</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel">
-                <div class="testimonial-item">
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="https://it.wikifur.com/w/images/thumb/d/d4/Mickey_Mouse.png/521px-Mickey_Mouse.png" alt="">
-                        <div class="ml-3">
-                            <h4>Topolino</h4>
-                            <i>disabile</i>
-                        </div>
-                    </div>
-                    <p class="m-0"> succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia</p>
-                </div>
-                <div class="testimonial-item">
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="https://www.cartamea.it/51407-thickbox/cappello-poliziotto-regolabile-widmann.jpg" alt="">
-                        <div class="ml-3">
-                            <h4>Salvatore Ventola</h4>
-                            <i>Poliziotto</i>
-                        </div>
-                    </div>
-                    <p class="m-0"> succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia</p>
-                </div>
-                <div class="testimonial-item">
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="https://www.striscialanotizia.mediaset.it/wp-content/uploads/2022/09/gabibboo.jpg" alt="">
-                        <div class="ml-3">
-                            <h4>Gabibbo</h4>
-                            <i>Terrorista</i>
-                        </div>
-                    </div>
-                    <p class="m-0"> succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia</p>
-                </div>
-                <div class="testimonial-item">
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="https://m.media-amazon.com/images/M/MV5BMTU5NTY4OTk3OF5BMl5BanBnXkFtZTcwNDExNDAzOA@@._V1_.jpg" alt="">
-                        <div class="ml-3">
-                            <h4>il cinese</h4>
-                            <i>onesto contrabbandiere</i>
-                        </div>
-                    </div>
-                    <p class="m-0"> succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia succhia</p>
-                </div>
-            </div>
-        </div>
+    <div class="item ">
+      <img alt="abc" class="iw" src="img/7.jpg">
     </div>
-    <!-- Testimonial End -->
+  </div>
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li class="active" data-slide-to="0" data-target="#article-photo-carousel">
+      <img alt="" src="img/1.jpg">
+    </li>
+    <li class="" data-slide-to="1" data-target="#article-photo-carousel">
+      <img alt="" src="img/2.jpg">
+    </li>
+    <li class="" data-slide-to="2" data-target="#article-photo-carousel">
+      <img alt="" src="img/3.jpg">
+    </li>
+    <li class="" data-slide-to="3" data-target="#article-photo-carousel">
+      <img alt="" src="img/4.jpg">
+    </li>
+	<li class="" data-slide-to="4" data-target="#article-photo-carousel">
+      <img alt="" src="img/6.jpg">
+    </li>
+    <li class="" data-slide-to="5" data-target="#article-photo-carousel">
+      <img alt="" src="img/7.jpg">
+    </li>
+   
+	
+  </ol>
+</div>
+   <div class="center_home_mi clearfix">
+    <h1>TEAMWORK IS AT THE CORE<br> OF OUR SUCCESS </h1>
+	<p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit Integer Nec Odio Praesent Libero.</p>
+	<h5><a class="button" href="#">READ MORE <i class="fa fa-chevron-right"></i></a></h5>
+	<h5><a class="button_1" href="#">SEE MORE <i class="fa fa-chevron-right"></i></a></h5>
+   </div>
+ </div>
+ 
+</section>
 
-
-    <!-- Footer Start -->
-    <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
-        <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Dove puoi toccarci</h4>
-                <p><i class="fa fa-map-marker-alt mr-2"></i>123 Via dal cazzo 23</p>
-                <p><i class="fa fa-phone-alt mr-2"></i>+16 666 66666</p>
-                <p class="m-0"><i class="fa fa-envelope mr-2"></i>info@example.com</p>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Followaci</h4>
-                <p>Succhia succhia succhia succhia succhia succhia succhia succhia succhia</p>
-                <div class="d-flex justify-content-start">
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Open Hours</h4>
-                <div>
-                    <h6 class="text-white text-uppercase">Lunedì - Venerdì</h6>
-                    <p>8.00 AM - 8.00 PM</p>
-                    <h6 class="text-white text-uppercase">Sabato - Domenica</h6>
-                    <p>2.00 PM - 8.00 PM</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Newslettera</h4>
-                <p> succhia succhia succhia succhia succhia succhia succhia succhia</p>
-                <div class="w-100">
-                    <div class="input-group">
-                        <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="Email">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary font-weight-bold px-3">Iscriviti</button>
-                        </div>
-                    </div>
-                </div>
+<section id="review_home">
+ <div class="container">
+  <div class="row">
+   <div class="review_home_1 clearfix">
+	<div class="col-sm-6">
+	 <div class="review_home_1r clearfix">
+	  <img src="img/8.jpg" class="iw" alt="abc">
+	 </div>
+	</div>
+	<div class="col-sm-6">
+	 <div class="review_home_1l clearfix">
+	  <h2 class="mgt">Review Of The Season</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit nisi pulvinar, dapibus elit malesuada.</p>
+	  <div class="review_home_1li clearfix">
+	   <h5>STRATEGY <span class="pull-right">90%</span></h5>
+	   <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
             </div>
         </div>
-        <div class="container-fluid text-center text-white border-top mt-4 py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
-            <p class="mb-2 text-white">Copyright &copy; <a class="font-weight-bold" href="https://temp-email.it/">temp-email.it</a></a></p>
+	  </div>
+	  <div class="review_home_1li clearfix">
+	   <h5>DESIGN <span class="pull-right">70%</span></h5>
+	   <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+            </div>
         </div>
-    </div>
-    <!-- Footer End -->
+	  </div>
+	  <div class="review_home_1li clearfix">
+	   <h5>MARKETING <span class="pull-right">65%</span></h5>
+	   <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+            </div>
+        </div>
+	  </div>
+	  <div class="review_home_1li clearfix">
+	   <h5>DEVELOPMENT <span class="pull-right">95%</span></h5>
+	   <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+            </div>
+        </div>
+	  </div>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
 
+<section id="achieve">
+ <div class="container">
+  <div class="row">
+   <div class="achieve_1 clearfix">
+    <div class="col-sm-4">
+	 <div class="achieve_1m clearfix">
+	  <div class="achieve_1mi clearfix">
+	   <img src="img/9.jpg" class="iw" alt="abc">
+	  </div>
+	  <div class="achieve_1mi1 text-center clearfix">
+	   <span class="col"><i class="fa fa-star-o"></i></span>
+	   <h3 class="bold col">League Cup</h3>
+	   <p class="col">Duis ac feugiat purus. Sed placerat commodo rhoncus. Curabitur sed pharetra turpis.</p>
+	   <h5><a class="button" href="#">SEE MORE <i class="fa fa-chevron-right"></i></a></h5>
+	  </div>
+	 </div>
+	</div>
+	<div class="col-sm-4">
+	 <div class="achieve_1m clearfix">
+	  <div class="achieve_1mi clearfix">
+	   <img src="img/10.jpg" class="iw" alt="abc">
+	  </div>
+	  <div class="achieve_1mi1 text-center clearfix">
+	   <span class="col"><i class="fa fa-trophy"></i></span>
+	   <h3 class="bold col">Championship</h3>
+	   <p class="col">Duis ac feugiat purus. Sed placerat commodo rhoncus. Curabitur sed pharetra turpis.</p>
+	   <h5><a class="button" href="#">SEE MORE <i class="fa fa-chevron-right"></i></a></h5>
+	  </div>
+	 </div>
+	</div>
+	<div class="col-sm-4">
+	 <div class="achieve_1m clearfix">
+	  <div class="achieve_1mi clearfix">
+	   <img src="img/11.jpg" class="iw" alt="abc">
+	  </div>
+	  <div class="achieve_1mi1 text-center clearfix">
+	   <span class="col"><i class="fa fa-clock-o"></i></span>
+	   <h3 class="bold col">Associations</h3>
+	   <p class="col">Duis ac feugiat purus. Sed placerat commodo rhoncus. Curabitur sed pharetra turpis.</p>
+	   <h5><a class="button" href="#">SEE MORE <i class="fa fa-chevron-right"></i></a></h5>
+	  </div>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+<section id="gallery_home">
+ <div class="container">
+  <div class="row">
+   <div class="gallery_h text-center clearfix">
+    <div class="col-sm-12">
+	 <h2 class="mgt">Fresh Sport Gallery</h2>
+	 <hr>
+	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit nisi pulvinar.</p>
+	</div>
+   </div>
+   
+   <div class="achieve_1 clearfix">
+    <div class="col-sm-3 space_all">
+	<a href="#"><div class="achieve_1m clearfix">
+	  <div class="achieve_1mi clearfix">
+	   <img src="img/12.jpg" class="iw" alt="abc">
+	  </div>
+	  <div class="achieve_1mi1 text-center clearfix">
+	   <h3 class="bold col">Being Free</h3>
+       <h4 class="col_1">PREPARATION</h4>
+	  </div>
+	 </div></a>
+	</div>
+	<div class="col-sm-3 space_all">
+	<a href="#"><div class="achieve_1m clearfix">
+	  <div class="achieve_1mi clearfix">
+	   <img src="img/13.jpg" class="iw" alt="abc">
+	  </div>
+	  <div class="achieve_1mi1 text-center clearfix">
+	   <h3 class="bold col">Setting Tracks</h3>
+       <h4 class="col_1">TEAM WORK</h4>
+	  </div>
+	 </div></a>
+	</div>
+	<div class="col-sm-3 space_all">
+	<a href="#"><div class="achieve_1m clearfix">
+	  <div class="achieve_1mi clearfix">
+	   <img src="img/14.jpg" class="iw" alt="abc">
+	  </div>
+	  <div class="achieve_1mi1 text-center clearfix">
+	   <h3 class="bold col">Ideal Transfers</h3>
+       <h4 class="col_1">TEAM WORK</h4>
+	  </div>
+	 </div></a>
+	</div>
+	<div class="col-sm-3 space_all">
+	<a href="#"><div class="achieve_1m clearfix">
+	  <div class="achieve_1mi clearfix">
+	   <img src="img/15.jpg" class="iw" alt="abc">
+	  </div>
+	  <div class="achieve_1mi1 text-center clearfix">
+	   <h3 class="bold col">Role  Model</h3>
+       <h4 class="col_1">SUCCESS</h4>
+	  </div>
+	 </div></a>
+	</div>
+   </div>
+   <div class="achieve_1 clearfix">
+    <div class="col-sm-3 space_all">
+	<a href="#"><div class="achieve_1m clearfix">
+	  <div class="achieve_1mi clearfix">
+	   <img src="img/16.jpg" class="iw" alt="abc">
+	  </div>
+	  <div class="achieve_1mi1 text-center clearfix">
+	   <h3 class="bold col">Being Free</h3>
+       <h4 class="col_1">PREPARATION</h4>
+	  </div>
+	 </div></a>
+	</div>
+	<div class="col-sm-3 space_all">
+	<a href="#"><div class="achieve_1m clearfix">
+	  <div class="achieve_1mi clearfix">
+	   <img src="img/17.jpg" class="iw" alt="abc">
+	  </div>
+	  <div class="achieve_1mi1 text-center clearfix">
+	   <h3 class="bold col">Setting Tracks</h3>
+       <h4 class="col_1">TEAM WORK</h4>
+	  </div>
+	 </div></a>
+	</div>
+	<div class="col-sm-3 space_all">
+	<a href="#"><div class="achieve_1m clearfix">
+	  <div class="achieve_1mi clearfix">
+	   <img src="img/18.jpg" class="iw" alt="abc">
+	  </div>
+	  <div class="achieve_1mi1 text-center clearfix">
+	   <h3 class="bold col">Ideal Transfers</h3>
+       <h4 class="col_1">TEAM WORK</h4>
+	  </div>
+	 </div></a>
+	</div>
+	<div class="col-sm-3 space_all">
+	<a href="#"><div class="achieve_1m clearfix">
+	  <div class="achieve_1mi clearfix">
+	   <img src="img/19.jpg" class="iw" alt="abc">
+	  </div>
+	  <div class="achieve_1mi1 text-center clearfix">
+	   <h3 class="bold col">Role  Model</h3>
+       <h4 class="col_1">SUCCESS</h4>
+	  </div>
+	 </div></a>
+	</div>
+   </div>
+   
+  </div>
+ </div>
+</section>
 
+<section id="players">
+ <div class="container">
+  <div class="row">
+    <div class="gallery_h text-center clearfix">
+    <div class="col-sm-12">
+	 <h2 class="mgt">Our Key Players</h2>
+	 <hr>
+	</div>
+   </div>
+    <div class="players_1 clearfix">
+	 <div class="col-sm-3">
+	  <div class="players_1i text-center clearfix">
+	   <img src="img/20.jpg" class="iw" alt="abc">
+	   <h3 class="bold">Praesent Libero</h3>
+	   <h5>GOALKEEPER</h5>
+	  </div>
+	 </div>
+	 <div class="col-sm-3">
+	  <div class="players_1i text-center clearfix">
+	   <img src="img/21.jpg" class="iw" alt="abc">
+	   <h3 class="bold">Ante Dapibus</h3>
+	   <h5>ATTACKER</h5>
+	  </div>
+	 </div>
+	 <div class="col-sm-3">
+	  <div class="players_1i text-center clearfix">
+	   <img src="img/22.jpg" class="iw" alt="abc">
+	   <h3 class="bold">Nulla Quis</h3>
+	   <h5>DEFENDER</h5>
+	  </div>
+	 </div>
+	 <div class="col-sm-3">
+	  <div class="players_1i text-center clearfix">
+	   <img src="img/23.jpg" class="iw" alt="abc">
+	   <h3 class="bold">Sed Augue </h3>
+	   <h5>MIDFIELDER</h5>
+	  </div>
+	 </div>
+	</div>
+  </div>
+ </div>
+</section>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+<section id="review_home_l">
+ <div class="container">
+  <div class="row">
+   <div class="review_home_1 clearfix">
+	<div class="col-sm-6">
+	 <div class="review_home_1l clearfix">
+	  <h2 class="mgt">Review Of The Season</h2>
+	  <p>Nam fermentum ullamcorper luctus. Integer ultricies imperdiet rutrum. Donec vel ultrices purus. Vestibulum posuere eget magna eu blandit. Sed fermentum, est ut tincidunt luctus, urna tellus ullamcorper augue, quis tincidunt mi justo faucibus odio. Phasellus aliquam nulla neque, eu lacinia felis elementum et. Nulla facilisi. Duis auctor felis vel lorem vulputate varius. Integer ipsum nibh, imperdiet id tincidunt quis, malesuada eget lorem. Aliquam iaculis quam dignissim.</p>
+	  <h5><a class="button" href="#">READ MORE <i class="fa fa-chevron-right"></i></a></h5>
+	  <h5><a class="button_1" href="#">TAKE A  TOUR <i class="fa fa-chevron-right"></i></a></h5>
+	 </div>
+	</div>
+	<div class="col-sm-6">
+	 <div class="review_home_1r clearfix">
+	  <img src="img/24.jpg" class="iw" alt="abc">
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
 
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
+<section id="strategy">
+<div class="container">
+ <div class="row">
+  <div class="strategy_1 clearfix">
+   <div class="col-sm-12">
+        <div class="panel panel-success">
+                <div class="panel-heading clickable panel-collapsed">
+                    <h3 class="panel-title">
+                         <i class="fa fa-gamepad"></i> STRATEGY</h3>
+                    <span class="pull-right "><i class="glyphicon glyphicon-minus"></i></span>                </div>
+                <div class="panel-body clearfix">
+			      <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitursodales ligula in libero.Sed dignissim lacinia nunc.</p>	  
+			    </div>
+            </div>
+		<div class="panel panel-success">
+                <div class="panel-heading clickable">
+                    <h3 class="panel-title">
+                         <i class="fa fa-fire"></i> PRODUCTION</h3>
+                    <span class="pull-right "><i class="glyphicon glyphicon-minus"></i></span>                </div>
+                <div class="panel-body clearfix">
+			      <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitursodales ligula in libero.Sed dignissim lacinia nunc.</p>	  
+			    </div>
+            </div>
+		<div class="panel panel-success">
+                <div class="panel-heading clickable">
+                    <h3 class="panel-title">
+                         <i class="fa fa-shield"></i> WEALTH</h3>
+                    <span class="pull-right "><i class="glyphicon glyphicon-minus"></i></span>                </div>
+                <div class="panel-body clearfix">
+			      <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitursodales ligula in libero.Sed dignissim lacinia nunc.</p>	  
+			    </div>
+            </div>
+		<div class="panel panel-success">
+                <div class="panel-heading clickable">
+                    <h3 class="panel-title">
+                       <i class="fa fa-graduation-cap"></i>   HARD WORK</h3>
+                    <span class="pull-right "><i class="glyphicon glyphicon-minus"></i></span>                </div>
+                <div class="panel-body clearfix">
+			      <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitursodales ligula in libero.Sed dignissim lacinia nunc.</p>	  
+			    </div>
+            </div>
+   </div>
+  </div>
+ </div>
+</div>
+</section>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+<section id="league">
+ <div class="league_m clearfix">
+  <div class="container">
+  <div class="row">
+   <div class="league_1 clearfix">
+    <div class="col-sm-3">
+	 <div class="league_1i clearfix">
+	   <img src="img/25.jpg" alt="abc" class="iw">
+	   <h4 class="bold">League Cup Of Country <span>1995</span></h4>
+	   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitimus.</p>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="league_1i clearfix">
+	   <img src="img/26.jpg" alt="abc" class="iw">
+	   <h4 class="bold">Champion League  <span>2002</span></h4>
+	   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitimus.</p>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="league_1i clearfix">
+	   <img src="img/27.jpg" alt="abc" class="iw">
+	   <h4 class="bold">National League <span>2008</span></h4>
+	   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitimus.</p>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="league_1i clearfix">
+	   <img src="img/28.jpg" alt="abc" class="iw">
+	   <h4 class="bold">Premier League <span>2016</span></h4>
+	   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitimus.</p>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+ </div>
+</section>
+
+<section id="counting">
+ <div class="container">
+  <div class="row">
+   <div class="counting_1 clearfix">
+    <div class="col-sm-3">
+	 <div class="counting_1 text-center clearfix">
+	  <span><i class="fa fa-gamepad"></i></span>
+	  <h1>244</h1>
+	  <h4>League Cup Games</h4>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="counting_1 text-center clearfix">
+	  <span><i class="fa fa-fire"></i></span>
+	  <h1>116</h1>
+	  <h4>League Cup Games</h4>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="counting_1 text-center clearfix">
+	  <span><i class="fa fa-shield"></i></span>
+	  <h1>24</h1>
+	  <h4>League Cup Games</h4>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="counting_1 text-center clearfix">
+	  <span><i class="fa fa-globe"></i></span>
+	  <h1>2001</h1>
+	  <h4>League Cup Games</h4>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="club">
+ <div class="container">
+  <div class="row">
+   <div class="gallery_h text-center clearfix">
+    <div class="col-sm-12">
+	 <h2 class="mgt">Club Souvenirs</h2>
+	 <hr>
+	</div>
+   </div>
+   <div class="achieve_1 clearfix">
+    <div class="col-sm-3">
+	 <div class="achieve_1m clearfix">
+	  <div class="achieve_1mi clearfix">
+	   <img src="img/30.jpg" class="iw" alt="abc">
+	  </div>
+	  <div class="achieve_1mi1 text-center clearfix">
+	   <h5><a class="button_1" href="#">ADD TO CART <i class="fa fa-chevron-right"></i></a></h5>
+	  </div>
+	 </div>
+	 <div class="club_i text-center clearfix">
+	  <span class="col_1">
+	   <i class="fa fa-star"></i>
+	   <i class="fa fa-star"></i>
+	   <i class="fa fa-star"></i>
+	   <i class="fa fa-star"></i>
+	   <i class="fa fa-star"></i>
+	  </span>
+	  <h4>Green Jersey</h4>
+	  <h1>$75.00</h1>
+	 </div>
+	</div>
+    <div class="col-sm-3">
+	 <div class="achieve_1m clearfix">
+	  <div class="achieve_1mi clearfix">
+	   <img src="img/31.jpg" class="iw" alt="abc">
+	  </div>
+	  <div class="achieve_1mi1 text-center clearfix">
+	   <h5><a class="button_1" href="#">ADD TO CART <i class="fa fa-chevron-right"></i></a></h5>
+	  </div>
+	 </div>
+	 <div class="club_i text-center clearfix">
+	  <span class="col_1">
+	   <i class="fa fa-star"></i>
+	   <i class="fa fa-star"></i>
+	   <i class="fa fa-star"></i>
+	   <i class="fa fa-star"></i>
+	   <i class="fa fa-star"></i>
+	  </span>
+	  <h4>Soccer Ball</h4>
+	  <h1>$65.00</h1>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="achieve_1m clearfix">
+	  <div class="achieve_1mi clearfix">
+	   <img src="img/32.jpg" class="iw" alt="abc">
+	  </div>
+	  <div class="achieve_1mi1 text-center clearfix">
+	   <h5><a class="button_1" href="#">ADD TO CART <i class="fa fa-chevron-right"></i></a></h5>
+	  </div>
+	 </div>
+	 <div class="club_i text-center clearfix">
+	  <span class="col_1">
+	   <i class="fa fa-star"></i>
+	   <i class="fa fa-star"></i>
+	   <i class="fa fa-star"></i>
+	   <i class="fa fa-star"></i>
+	   <i class="fa fa-star"></i>
+	  </span>
+	  <h4>Pro Cleats</h4>
+	  <h1>$45.00</h1>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="achieve_1m clearfix">
+	  <div class="achieve_1mi clearfix">
+	   <img src="img/33.jpg" class="iw" alt="abc">
+	  </div>
+	  <div class="achieve_1mi1 text-center clearfix">
+	   <h5><a class="button_1" href="#">ADD TO CART <i class="fa fa-chevron-right"></i></a></h5>
+	  </div>
+	 </div>
+	 <div class="club_i text-center clearfix">
+	  <span class="col_1">
+	   <i class="fa fa-star"></i>
+	   <i class="fa fa-star"></i>
+	   <i class="fa fa-star"></i>
+	   <i class="fa fa-star"></i>
+	   <i class="fa fa-star"></i>
+	  </span>
+	  <h4>Fan Beanie</h4>
+	  <h1>$35.00</h1>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="signup">
+ <div class="container">
+  <div class="row">
+   <div class="signup_1 text-center clearfix">
+    <div class="col-sm-12">
+	 <h1 class="mgt">Join The Club</h1>
+	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit nisi</p>
+	 <div class="input-group">
+			<input type="text" class="form-control" placeholder="Email">
+			<span class="input-group-btn">
+			 <button class="btn btn-primary" type="button">
+			  SIGN UP</button>
+			</span>		  </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="footer">
+ <div class="container">
+  <div class="row">
+   <div class="footer_1 clearfix">
+    <div class="col-sm-3">
+	 <div class="footer_1_i clearfix">
+	  <h4 class="col bold mgt">About Trophy</h4>
+	  <p>Lorem ipsum dolor sit amet, nam ut vero scribentur, mel veritus omnesque ei. Mutat labores mea ex mei.</p>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut mi.</p>
+	  <h5 class="col"><i class="fa fa-headphones"></i>	Call Us 1-234-567-xyzab</h5>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="footer_1_i clearfix">
+	  <h4 class="col bold mgt">Latest Posts</h4>
+	  <div class="footer_1_ii clearfix"><h5 class="col mgt"><a href="#">Basics First</a> <span>OCT 21, 2016</span></h5></div>
+	  <div class="footer_1_ii clearfix"><h5 class="col mgt"><a href="#">Becoming Great</a> <span>OCT 25, 2016</span></h5></div>
+	  <div class="footer_1_ii clearfix"><h5 class="col mgt"><a href="#">Better Results</a> <span>OCT 29, 2016</span></h5></div>
+	 </div>
+	</div>
+	
+	<div class="col-sm-3">
+	 <div class="footer_1_i1 clearfix">
+	  <h4 class="col bold mgt">Links</h4>
+      <h5><a href="#"><i class="fa fa-chevron-right"></i> About Us</a></h5>
+	  <h5><a href="#"><i class="fa fa-chevron-right"></i> Club History</a></h5>
+	  <h5><a href="#"><i class="fa fa-chevron-right"></i> Contact Us</a></h5>
+	  <h5><a href="#"><i class="fa fa-chevron-right"></i> FAQ</a></h5>
+	 </div>
+	</div>
+	
+	<div class="col-sm-3">
+	 <div class="footer_1_i2 clearfix">
+	  <h4 class="col bold mgt">Follow Us</h4>
+	  <p>Lorem ipsum dolor sit amet, nam ut vero scribentur, mel veritus omnesque ei. Mutat labores mea ex mei.</p>
+      <ul class="social-network social-circle">
+                        <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+       </ul>
+	 </div>
+	</div>
+   </div>
+   <div class="footer_2 text-center clearfix">
+    <div class="col-sm-12">
+	  <p class="mgt col"> © 2013 Your Website Name. All Rights Reserved | Design by <a class="col_1" href="http://www.templateonweb.com">TemplateOnWeb</a></p>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<script>
+	$(document).on('click', '.panel-heading span.clickable', function (e) {
+    var $this = $(this);
+    if (!$this.hasClass('panel-collapsed')) {
+        $this.parents('.panel').find('.panel-body').slideUp();
+        $this.addClass('panel-collapsed');
+        $this.find('i').removeClass('glyphicon-minus').addClass('glyphicon-plus');
+    } else {
+        $this.parents('.panel').find('.panel-body').slideDown();
+        $this.removeClass('panel-collapsed');
+        $this.find('i').removeClass('glyphicon-plus').addClass('glyphicon-minus');
+    }
+});
+$(document).on('click', '.panel div.clickable', function (e) {
+    var $this = $(this);
+    if (!$this.hasClass('panel-collapsed')) {
+        $this.parents('.panel').find('.panel-body').slideUp();
+        $this.addClass('panel-collapsed');
+        $this.find('i').removeClass('glyphicon-minus').addClass('glyphicon-plus');
+    } else {
+        $this.parents('.panel').find('.panel-body').slideDown();
+        $this.removeClass('panel-collapsed');
+        $this.find('i').removeClass('glyphicon-plus').addClass('glyphicon-minus');
+    }
+});
+$(document).ready(function () {
+    $('.panel-heading span.clickable').click();
+    $('.panel div.clickable').click();
+});
+
+	</script>
+
+<script>
+	  $("#menu-close").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+  });
+  $("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+  });
+	</script>
 </body>
-
+ 
 </html>
